@@ -1,0 +1,49 @@
+.advantages {
+	background: #F7F7F7;
+	padding: 54px 0 54px 69px;
+}
+.advantages__wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.advantages__list {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+}
+.advantages__item {
+	display: flex;
+	align-items: center;
+}
+
+.advantages__pic {
+}
+.advantages__title {
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	margin-left: 20px;
+}
+
+.item-shipping img{
+	height: 30px;
+	width: 60px;
+}
+.item-awarded img{
+	height: 49px;
+	width: 50px;
+}
+.item-eco img{
+	height: 42px;
+	width: 34px;
+}
+.item-spain img{
+	height: 47px;
+	width: 47px;
+}
+
+.advantages__stars {
+	margin: 0 auto;
+}

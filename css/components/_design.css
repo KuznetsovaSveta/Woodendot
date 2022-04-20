@@ -1,0 +1,41 @@
+.design {
+}
+.design__cards {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	margin-top: 43px;
+	/*margin-bottom: 72px;*/
+}
+.design__card {
+	padding: 54px 21px 46px 21px;
+	grid-column: span 2;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F8F8F8;
+}
+.design__card_white {
+	background-color: white;
+}
+.design__image {
+	margin-bottom: 35px;
+}
+.design__title {
+	font-size: 24px;
+	line-height: 35px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+.design__descr {
+	max-width: 295px;
+	font-size: 15px;
+	line-height: 28px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.design__link {
+	font-size: 15px;
+	line-height: 15px;
+	text-decoration-line: underline;
+}

@@ -1,0 +1,23 @@
+.header {
+	text-align: center;
+	padding: 24px 0 22px 0;
+	height: 69px;
+	border-bottom: 1px solid #F2F2F2;
+	margin-bottom: 35px;
+}
+.header__list {
+	display: flex;
+	margin-bottom: -15px;
+}
+.header__item {
+	margin-left: 20px;
+}
+.header__link {
+	font-size: 17px;
+	line-height: 23px;
+}
+
+.header__logo-link {
+	display: inline-block;
+	margin-top: -15px;
+}

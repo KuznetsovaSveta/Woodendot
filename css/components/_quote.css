@@ -1,0 +1,18 @@
+.quote {
+	max-width: 1190px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 83px 125px 52px 125px;
+}
+.quote__text {
+	font-style: italic;
+	font-size: 20px;
+	line-height: 30px;
+	color: #020202;
+	margin-bottom: 37px;
+}
+.quote__author {
+	font-size: 15px;
+	line-height: 21px;
+	margin-bottom: 59px;/*49 + 10*/
+}

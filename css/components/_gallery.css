@@ -1,0 +1,12 @@
+.gallery__wrapper {
+	margin-bottom: 115px;
+}
+.wrapper {
+}
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+}
+.gallery__pic {
+	grid-column: span 2;
+}
